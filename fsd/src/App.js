@@ -1,14 +1,13 @@
 import { useState } from 'react';
-import './App.css';
 import { Products } from './components/Products';
 import { Favourite } from './components/Favourite';
-
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import {Cart}  from './components/Cart';
+import './App.css';
+
 
 function App() {
-
   return (
     <div className=''>
       <Navbar/>
